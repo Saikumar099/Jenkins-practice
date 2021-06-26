@@ -3,7 +3,8 @@ pipeline {
      tools {
         maven 'maven-3.6.3'
         jdk 'jdk8'
-    stages {
+     }
+      stages {
         stage('Build') {
             steps {
                 echo 'Building..'
