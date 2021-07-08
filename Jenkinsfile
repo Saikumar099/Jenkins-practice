@@ -1,11 +1,5 @@
 pipeline {
-<<<<<<< HEAD
     agent any
-=======
-    agent {
-      Dockerfile true
-       }          
->>>>>>> c7201462aead1cc2386106f55b7262a86299a902
       stages {
         stage('Build') {
             steps {
