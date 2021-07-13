@@ -20,7 +20,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'cd /opt/Jenkins-practice/'
-                sh 'mvn test'
+                sh 'mvn install test'
                 echo 'Testing..'
             }
         }
