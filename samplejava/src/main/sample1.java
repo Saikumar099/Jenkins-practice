@@ -1,12 +1,11 @@
-import java.lang.Math;   
-public class RandomNumberExample1  
-{   
-public static void main(String args[])   
-{   
-// Generating random numbers  
-System.out.println("1st Random Number: " + Math.random());   
-System.out.println("2nd Random Number: " + Math.random());  
-System.out.println("3rd Random Number: " + Math.random());   
-System.out.println("4th Random Number: " + Math.random());   
-}   
-}  
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello World</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <p>This is a web page.</p>
+  </body>
+</html>
